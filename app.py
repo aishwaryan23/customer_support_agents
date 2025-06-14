@@ -5,6 +5,7 @@ from langgraph.graph import StateGraph, END
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
+load_dotenv
 
 # Define the state
 class State(TypedDict):
